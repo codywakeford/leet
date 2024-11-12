@@ -32,6 +32,8 @@ class Solution {
     }
 
     // O(n)
+    // Here we use a hashmap to avoid the brute force method. This way
+    // we only need to do a single pass through the array to find the solution.
     twoSumHash(nums, target) {
         const hash = new Set()
 
