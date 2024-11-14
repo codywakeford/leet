@@ -2,7 +2,7 @@
 
 class Solution {
     // O(n) time
-    // O(n) space
+    // O(?) space
     isValid(strings) {
         let stack = []
 
@@ -19,6 +19,8 @@ class Solution {
                 if (stack.pop() !== char) return false
             }
         }
+        if (stack.length) return false // check for unclosed
+
         return true
     }
 }
