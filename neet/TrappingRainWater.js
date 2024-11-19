@@ -37,6 +37,6 @@ class Solution {
 // calc maXRight
 // work out water at every value
 
-const solution = new Solution()
+const solution123 = new Solution()
 
-console.log(solution.trappedWater([0, 2, 0, 3, 1, 0, 1, 3, 2, 1]))
+console.log(solution123.trappedWater([0, 2, 0, 3, 1, 0, 1, 3, 2, 1]))
