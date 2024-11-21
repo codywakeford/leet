@@ -12,16 +12,9 @@ reversed
 let number = parseInt(reversed, 2)
 number
 
-
 const n2 = 1101
 let p = parseInt(n2, 2)
 p
 
-
 const testing = 10 // 2
 const r = parseInt(testing, 2)
-
-const testing2 = 
-
-
-
